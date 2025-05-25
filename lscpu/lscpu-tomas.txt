@@ -1,0 +1,65 @@
+Arquitectura:                            x86_64
+  modo(s) de operación de las CPUs:      32-bit, 64-bit
+  Address sizes:                         36 bits physical, 48 bits virtual
+  Orden de los bytes:                    Little Endian
+CPU(s):                                  4
+  Lista de la(s) CPU(s) en línea:        0-3
+ID de fabricante:                        GenuineIntel
+  Nombre del modelo:                     Intel(R) Core(TM) i3-3120M CPU @ 2.50GH
+                                         z
+    Familia de CPU:                      6
+    Modelo:                              58
+    Hilo(s) de procesamiento por núcleo: 2
+    Núcleo(s) por «socket»:              2
+    «Socket(s)»                          1
+    Revisión:                            9
+    CPU(s) scaling MHz:                  58%
+    CPU MHz máx.:                        2500,0000
+    CPU MHz mín.:                        1200,0000
+    BogoMIPS:                            4989,15
+    Indicadores:                         fpu vme de pse tsc msr pae mce cx8 apic
+                                          sep mtrr pge mca cmov pat pse36 clflus
+                                         h dts acpi mmx fxsr sse sse2 ss ht tm p
+                                         be syscall nx rdtscp lm constant_tsc ar
+                                         ch_perfmon pebs bts rep_good nopl xtopo
+                                         logy nonstop_tsc cpuid aperfmperf pni p
+                                         clmulqdq dtes64 monitor ds_cpl vmx est 
+                                         tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 ss
+                                         e4_2 x2apic popcnt tsc_deadline_timer x
+                                         save avx f16c lahf_lm cpuid_fault epb p
+                                         ti ssbd ibrs ibpb stibp tpr_shadow flex
+                                         priority ept vpid fsgsbase smep erms xs
+                                         aveopt dtherm arat pln pts vnmi md_clea
+                                         r flush_l1d
+Virtualization features:                 
+  Virtualización:                        VT-x
+Caches (sum of all):                     
+  L1d:                                   64 KiB (2 instances)
+  L1i:                                   64 KiB (2 instances)
+  L2:                                    512 KiB (2 instances)
+  L3:                                    3 MiB (1 instance)
+NUMA:                                    
+  Modo(s) NUMA:                          1
+  CPU(s) del nodo NUMA 0:                0-3
+Vulnerabilities:                         
+  Gather data sampling:                  Not affected
+  Itlb multihit:                         KVM: Mitigation: VMX disabled
+  L1tf:                                  Mitigation; PTE Inversion; VMX conditio
+                                         nal cache flushes, SMT vulnerable
+  Mds:                                   Mitigation; Clear CPU buffers; SMT vuln
+                                         erable
+  Meltdown:                              Mitigation; PTI
+  Mmio stale data:                       Unknown: No mitigations
+  Reg file data sampling:                Not affected
+  Retbleed:                              Not affected
+  Spec rstack overflow:                  Not affected
+  Spec store bypass:                     Mitigation; Speculative Store Bypass di
+                                         sabled via prctl
+  Spectre v1:                            Mitigation; usercopy/swapgs barriers an
+                                         d __user pointer sanitization
+  Spectre v2:                            Mitigation; Retpolines; IBPB conditiona
+                                         l; IBRS_FW; STIBP conditional; RSB fill
+                                         ing; PBRSB-eIBRS Not affected; BHI Not 
+                                         affected
+  Srbds:                                 Not affected
+  Tsx async abort:                       Not affected
